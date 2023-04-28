@@ -1,0 +1,32 @@
+#grad1 {
+    height: auto;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(103, 200, 230), rgb(0, 0, 0));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #back1{
+    background-image: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 20px,
+    black 20px,
+    black 40px
+    );
+    /* with multiple color stop lengths */
+    background-image: repeating-linear-gradient(
+      -45deg,
+      transparent 0 20px,
+      black 20px 40px
+    );
+  }
+  .center {
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+  }
+  .p2 {
+    color:rgb(214, 194, 194);
+    font-family: 'Franklin Gothic Medium';
+  }
